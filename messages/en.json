@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Kalamış Tennis Club — Curated matchmaking",
+    "description": "Organized matches, balanced opponents, and a premium tennis community in Istanbul. Join the WhatsApp group directly.",
+    "ogTitle": "Kalamış Tennis Club",
+    "ogDescription": "Curated tennis matchmaking. Balanced games. No chaos."
+  },
+  "logoAlt": "Kalamış Tennis Club logo",
+  "nav": {
+    "brandAria": "Back to home",
+    "apply": "Join",
+    "instagram": "Instagram",
+    "instagramAria": "Kalamış Tennis Club on Instagram (opens in a new tab)",
+    "switchLangAria": "Switch language to Turkish",
+    "switchLangShort": "TR"
+  },
+  "hero": {
+    "badge": "Curated tennis community · Istanbul",
+    "titleBefore": "Play Tennis.",
+    "titleEmphasis": "The Right Way.",
+    "subtitle": "Organized matches. Balanced opponents. No chaos.",
+    "primaryCta": "Join",
+    "secondaryCta": "How it works",
+    "note": "A curated community in Istanbul. Admins organize play; members opt in through polls — not endless group chat noise.",
+    "heroSpotlightAlt": "Jannik Sinner with the Monte Carlo Masters trophy — a champion moment",
+    "heroPhotoCaption": "Elite tennis and winning energy — passion you can feel on court."
+  },
+  "howItWorks": {
+    "eyebrow": "Process",
+    "title": "How it works",
+    "subtitle": "Four steps from interest to court — designed to stay organized.",
+    "steps": [
+      {
+        "title": "Poll",
+        "description": "We post availability and intent. You respond when you’re in — clear signal, zero noise."
+      },
+      {
+        "title": "Selection",
+        "description": "Admins curate attendance for balanced sides. Quality over quantity — every session counts."
+      },
+      {
+        "title": "Matchmaking",
+        "description": "Pairings are assembled for competitive, respectful play — skill-aware, not random."
+      },
+      {
+        "title": "Play",
+        "description": "Show up on time, play hard, keep it simple. Courts and structure are handled for you."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Principles",
+    "title": "Why Kalamış Tennis Club",
+    "subtitle": "Built for players who want structure — without losing the soul of the game.",
+    "imageBadge": "Club energy",
+    "imageAlt": "Doubles play on an outdoor court — Monte Carlo–style tennis atmosphere",
+    "imageTagline": "Balanced play, clear rules, authentic tennis culture.",
+    "points": [
+      {
+        "title": "Balanced, skill-aware matches",
+        "body": "Games are composed with care — closer rallies, better rhythm, less frustration."
+      },
+      {
+        "title": "Court reservations handled",
+        "body": "Logistics stay behind the scenes. You focus on playing, not coordinating."
+      },
+      {
+        "title": "No unnecessary messaging",
+        "body": "Communication is intentional. The group isn’t a 24/7 feed of noise."
+      },
+      {
+        "title": "Premium, curated experience",
+        "body": "Membership is selective. The standard is respect, punctuality, and fair play."
+      }
+    ]
+  },
+  "rules": {
+    "eyebrow": "Guidelines",
+    "title": "System rules",
+    "subtitle": "Clear expectations keep the community sharp — on court and off.",
+    "items": [
+      "Participation is driven by polls — opt in when you mean it.",
+      "No-shows affect everyone. Repeated absences may result in removal.",
+      "Matches are organized by admins to keep quality and balance consistent.",
+      "Messaging is restricted to keep coordination clean and purposeful."
+    ]
+  },
+  "roadmap": {
+    "eyebrow": "Roadmap",
+    "title": "Future features",
+    "subtitle": "We’re intentionally slow to add complexity — only what elevates play.",
+    "items": [
+      {
+        "label": "Near-term",
+        "title": "Rating system",
+        "detail": "Lightweight skill signals to improve match balance over time."
+      },
+      {
+        "label": "Exploring",
+        "title": "Mini tournaments",
+        "detail": "Short-format events for members who want a sharper competitive edge."
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "From the court",
+    "title": "The colours and rhythm of tennis",
+    "subtitle": "Greens, sky blues, and court textures — a visual slice of the club experience.",
+    "swipeHint": "Swipe for more",
+    "alts": [
+      "Aerial view of tennis courts surrounded by trees",
+      "Tennis racket and ball on a court",
+      "Green tennis court surface and white lines",
+      "Gray and white hard court with game lines"
+    ]
+  },
+  "finalCta": {
+    "title": "Join Kalamış Tennis Club",
+    "body": "If this sounds like your kind of tennis — structured, fair, and quietly competitive — join the WhatsApp group in one step.",
+    "button": "Join"
+  },
+  "footerLinks": {
+    "navAria": "Page sections",
+    "sectionTitle": "Explore",
+    "socialTitle": "Social",
+    "how": "How it works",
+    "why": "Why us",
+    "gallery": "Gallery",
+    "rules": "Rules",
+    "join": "Join"
+  },
+  "footer": {
+    "club": "Kalamış Tennis Club",
+    "location": "Istanbul",
+    "instagram": "Instagram",
+    "instagramAria": "@kalamistennisclub on Instagram (opens in a new tab)",
+    "tagline": "Curated matchmaking"
+  }
+}

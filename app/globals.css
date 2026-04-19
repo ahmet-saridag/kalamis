@@ -1,26 +1,127 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-forest: var(--forest);
+  --color-sky: var(--sky);
+  --animate-fade-up: fade-up 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  --animate-fade-in: fade-in 0.9s ease-out forwards;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --background: #f0f4f2;
+  --surface: #ffffff;
+  --foreground: #0f1f18;
+  --muted: #5a6d64;
+  --forest: #1a3d34;
+  --forest-mid: #234d42;
+  --sage: #8da89e;
+  --sage-soft: #d4e0da;
+  --sky: #3d7eae;
+  --sky-soft: #b8d4eb;
+  --clay: #c45c3e;
+  --line: rgba(15, 31, 24, 0.1);
+  --frame-outer: #4a7c6c;
+  --gold: #c4a574;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
 body {
-  background: var(--background);
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: var(--frame-outer);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: clip;
+  -webkit-tap-highlight-color: color-mix(
+    in oklab,
+    var(--forest) 12%,
+    transparent
+  );
+  text-size-adjust: 100%;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .touch-pan-x {
+    touch-action: pan-x;
+  }
+}
+
+/* Hafif kort çizgisi hissi — açık tema */
+.court-veil {
+  background-image:
+    radial-gradient(
+      ellipse 120% 80% at 100% 0%,
+      color-mix(in oklab, var(--sky-soft) 45%, transparent),
+      transparent 55%
+    ),
+    radial-gradient(
+      ellipse 90% 60% at 0% 100%,
+      color-mix(in oklab, var(--sage-soft) 55%, transparent),
+      transparent 50%
+    );
+}
+
+.glass-panel {
+  background: color-mix(in oklab, var(--surface) 78%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* yatay galeri */
+.snap-x-scroll {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.snap-start-child > * {
+  scroll-snap-align: start;
 }

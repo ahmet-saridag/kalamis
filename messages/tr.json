@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "Kalamış Tennis Club — Kürasyonlu eşleştirme",
+    "description": "İstanbul’da organize maçlar, dengeli rakipler ve seçkin bir tenis topluluğu. WhatsApp grubuna doğrudan katılın.",
+    "ogTitle": "Kalamış Tennis Club",
+    "ogDescription": "Kürasyonlu tenis eşleştirmesi. Dengeli oyunlar. Karmaşa yok."
+  },
+  "logoAlt": "Kalamış Tennis Club logosu",
+  "nav": {
+    "brandAria": "Ana sayfaya dön",
+    "apply": "Katıl",
+    "instagram": "Instagram",
+    "instagramAria": "Kalamış Tennis Club Instagram hesabı, yeni sekmede açılır",
+    "switchLangAria": "Dili English olarak değiştir",
+    "switchLangShort": "EN"
+  },
+  "hero": {
+    "badge": "Kürasyonlu tenis topluluğu · İstanbul",
+    "titleBefore": "Tenis oyna.",
+    "titleEmphasis": "Doğru şekilde.",
+    "subtitle": "Organize maçlar. Dengeli rakipler. Karmaşa yok.",
+    "primaryCta": "Katıl",
+    "secondaryCta": "Nasıl çalışır?",
+    "note": "İstanbul’da seçkin bir topluluk. Yöneticiler oyunu organize eder; üyeler anketlerle katılım gösterir — sonsuz grup sohbeti gürültüsü yok.",
+    "heroSpotlightAlt": "Jannik Sinner, Monte Carlo Masters kupasıyla — şampiyonluk anı",
+    "heroPhotoCaption": "Üst düzey tenis ve şampiyonluk enerjisi — korta yansıyan tutku."
+  },
+  "howItWorks": {
+    "eyebrow": "Süreç",
+    "title": "Nasıl çalışır?",
+    "subtitle": "İlgi halinden korta dört adım — düzenli kalsın diye tasarlandı.",
+    "steps": [
+      {
+        "title": "Anket",
+        "description": "Müsaitlik ve niyeti paylaşırız. Katılacaksanız yanıt verin — net sinyal, gereksiz gürültü yok."
+      },
+      {
+        "title": "Seçim",
+        "description": "Yöneticiler dengeli taraflar için katılımı seçer. Nicelikten çok nitelik — her seans önemlidir."
+      },
+      {
+        "title": "Eşleştirme",
+        "description": "Eşleşmeler rekabetçi ve saygılı bir oyun için kurulur — beceri farkındalığı var, rastgele değil."
+      },
+      {
+        "title": "Oyna",
+        "description": "Zamanında gelin, sert oynayın, sade tutun. Kort ve yapı sizin için halledilir."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "İlkeler",
+    "title": "Neden Kalamış Tennis Club",
+    "subtitle": "Yapı isteyen — oyunun ruhunu kaybetmeyen — oyuncular için tasarlandı.",
+    "imageBadge": "Kulüp enerjisi",
+    "imageAlt": "Kortta çiftler maçı — Monte Carlo tarzı açık hava tenis atmosferi",
+    "imageTagline": "Dengeli maçlar, net kurallar, gerçek tenis kültürü.",
+    "points": [
+      {
+        "title": "Dengeli, beceri odaklı maçlar",
+        "body": "Oyunlar özenle kurulur — daha iyi ritim, daha yakın ralliler, daha az hayal kırıklığı."
+      },
+      {
+        "title": "Kort rezervasyonları bizde",
+        "body": "Lojistik perde arkasında kalır. Siz koordinasyon değil, oyun oynamaya odaklanırsınız."
+      },
+      {
+        "title": "Gereksiz mesajlaşma yok",
+        "body": "İletişim kasıtlıdır. Grup, sürekli akan bir bildirim akışı değildir."
+      },
+      {
+        "title": "Seçkin, kürasyonlu deneyim",
+        "body": "Üyelik seçicidir. Standart: saygı, dakiklik ve fair play."
+      }
+    ]
+  },
+  "rules": {
+    "eyebrow": "Yönergeler",
+    "title": "Sistem kuralları",
+    "subtitle": "Net beklentiler topluluğu kortta ve dışında keskin tutar.",
+    "items": [
+      "Katılım anketlerle yürür — katılacağınız zaman net olun.",
+      "Gelmemek herkesi etkiler. Tekrarlayan devamsızlıklar çıkarmayla sonuçlanabilir.",
+      "Maçlar kalite ve dengeyi korumak için yöneticiler tarafından organize edilir.",
+      "Mesajlaşma kısıtlıdır; koordinasyon temiz ve amaçlı kalsın diye."
+    ]
+  },
+  "roadmap": {
+    "eyebrow": "Yol haritası",
+    "title": "Gelecek özellikler",
+    "subtitle": "Karmaşıklığı bilinçli yavaş ekliyoruz — yalnızca oyunu yükselteni.",
+    "items": [
+      {
+        "label": "Yakın vadede",
+        "title": "Derecelendirme sistemi",
+        "detail": "Zaman içinde eşleşme dengesini iyileştirmek için hafif beceri sinyalleri."
+      },
+      {
+        "label": "Keşif aşamasında",
+        "title": "Mini turnuvalar",
+        "detail": "Daha keskin rekabet isteyen üyeler için kısa format etkinlikler."
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Korttan kareler",
+    "title": "Tenisin renkleri ve ritmi",
+    "subtitle": "Yeşil, gökyüzü mavisi ve kortların dokusu — kulüp deneyiminin görsel yansıması.",
+    "swipeHint": "Daha fazlası için kaydırın",
+    "alts": [
+      "Havadan görünüm: ağaçlarla çevrili tenis kortları",
+      "Kort üzerinde tenis raketi ve top",
+      "Yeşil tenis kortu yüzeyi ve beyaz çizgiler",
+      "Gri-beyaz sert kort üzerinde oyun alanı çizgileri"
+    ]
+  },
+  "finalCta": {
+    "title": "Kalamış Tennis Club’a katılın",
+    "body": "Eğer tenisiniz buysa — düzenli, adil ve sessizce rekabetçi — WhatsApp grubuna tek adımda katılın.",
+    "button": "Katıl"
+  },
+  "footerLinks": {
+    "navAria": "Sayfa bölümleri",
+    "sectionTitle": "Keşfet",
+    "socialTitle": "Sosyal",
+    "how": "Nasıl çalışır?",
+    "why": "Neden biz",
+    "gallery": "Galeri",
+    "rules": "Kurallar",
+    "join": "Katıl"
+  },
+  "footer": {
+    "club": "Kalamış Tennis Club",
+    "location": "İstanbul",
+    "instagram": "Instagram",
+    "instagramAria": "@kalamistennisclub Instagram profili, yeni sekmede açılır",
+    "tagline": "Kürasyonlu eşleştirme"
+  }
+}
