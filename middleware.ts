@@ -1,6 +1,7 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { defaultLocale, isLocale } from "@/lib/i18n/config";
+// Vercel Edge: `@/` in middleware can fail — use relative import.
+import { defaultLocale, isLocale } from "./lib/i18n/config";
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
