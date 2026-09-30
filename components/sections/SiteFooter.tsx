@@ -37,6 +37,12 @@ export function SiteFooter({ dict, locale }: SiteFooterProps) {
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-[var(--muted)]">
             {f.tagline}
           </p>
+          <p className="mt-3 max-w-xs text-sm leading-relaxed text-[var(--muted)]">
+            {f.partnerLead}{" "}
+            <a href="https://backlinkmarket.co/" className="underline underline-offset-2 hover:text-[var(--forest)]">
+              backlinkmarket.co
+            </a>
+          </p>
         </div>
         <nav
           className="flex flex-col gap-2 md:col-span-4"
